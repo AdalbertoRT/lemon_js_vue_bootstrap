@@ -1,0 +1,34 @@
+/* 900 */
+@media (max-width: 900px) and (min-width: 800px) {
+    .card {
+        margin: .4rem!important;
+        width: 11.7rem!important;
+    }
+}
+/* 800 */
+@media (max-width: 800px) and (min-width: 700px) {
+    .card {
+        margin: .5rem!important;
+        width: 15rem!important;
+    }
+}
+/* 700 */
+@media (max-width: 700px) and (min-width: 600px) {
+    .card {
+        margin: .5rem!important;
+        width: 13rem!important;
+    }
+}
+/* 600 */
+@media (max-width: 600px) {
+    .card {
+        margin: .5rem!important;
+        width: 23rem!important;
+    }
+}
+/* 400 */
+@media (max-width: 600px) {
+    .breadcrumbs a, .breadcrumbs span {
+        font-size: .5rem;
+    }
+}

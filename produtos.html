@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <title>Produtos</title>
+</head>
+
+<body>
+    <div id="app">
+        <!-- HEADER -->
+        <cabecalho></cabecalho>
+        <!-- SECTION -->
+        <section class="content">
+            <div class="produtos-container d-flex justify-content-center flex-column">
+                <div class="page-title py-2 d-flex align-items-center">
+                    <h2 class="container h-100">PRODUTOS</h2>
+                </div>
+                
+                <div class="container produtos-cards row container m-auto p-0 align-itens-center justify-content-start py-2">
+                    <div class="breadcrumbs"><a href="index.html">PÁGINA INICIAL</a> / <span class="bold font-weight-bold">PRODUTOS</span></div>
+                    <div class="card col-auto m-2 p-0" style="width: 13rem;" v-for="item in produtos">
+                        <img class="card-img-top" :src=" 'assets/images/' + item.img " :alt="item.titulo">
+                        <div class="card-body py-2">
+                            <h5 class="card-title">{{item.titulo}}</h5>
+                            <p class="card-text">{{item.descricao.substr(0, 26)}}</p>
+                            <a :href=" 'produto.html?id=' + item.id" class="btn btn-warning btn-block comprar">COMPRAR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FOOTER -->
+        <rodape :produtos="produtos" :base-url="baseUrl"></rodape>
+        <!-- MODAIS -->
+        <modais></modais>
+    </div>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/vue.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script type="module" src="assets/js/script-prods.js"></script>
+
+</body>
+
+</html>

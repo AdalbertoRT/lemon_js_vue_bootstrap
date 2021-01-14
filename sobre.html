@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <title>Sobre</title>
+</head>
+
+<body>
+  <div id="app">
+    <!-- HEADER -->
+    <cabecalho></cabecalho>
+    <!-- SECTION -->
+    <section class="content mb-4">
+        <div class="container-sobre">
+          <div class="background"></div>
+            <div class="sobre container">
+                <div class="breadcrumbs text-white"><a href="index.html">PÁGINA INICIAL</a> / <span class="bold font-weight-bold">SOBRE</span></div>
+                <div class="sobre-title" data-anime="left">
+                    <span>QUEM SOMOS</span>
+                </div>
+                <div class="sobre-text" data-anime="right">
+                    <span>A Lemon é uma empresa que atua desde 1995 na comercialização de produtos derivados da fruta limão. Nosso grande diferencial é a qualidade e o carinho que colocamos na produção de cada um de nossos produtos.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <rodape :produtos="produtos" :base-url="baseUrl"></rodape>
+    <!-- MODAIS -->
+    <modais></modais>
+  </div>
+
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/vue.js"></script>
+  <script src="assets/js/index.js"></script>
+  <script type="module" src="assets/js/script-prod.js"></script>
+
+</body>
+
+</html>

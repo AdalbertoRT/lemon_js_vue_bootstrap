@@ -1,0 +1,63 @@
+/* 900 */
+@media (max-width: 900px) and (min-width: 800px) {
+    .sobre-text {
+        font-size: 1.2rem;
+    }
+}
+/* 800 */
+@media (max-width: 800px) and (min-width: 600px) {
+    .sobre-title {
+        font-size: 2.5rem;
+    }
+    .sobre-text {
+        font-size: 1rem;
+    }
+}
+/* 600 */
+@media (max-width: 600px) and (min-width: 500px) {
+    .sobre-title {
+        font-size: 2rem;
+    }
+    .sobre-text {
+        font-size: .9rem;
+    }
+    .breadcrumbs a, .breadcrumbs span {
+        font-size: .5rem;
+    }
+}
+/* 500 */
+@media (max-width: 500px) and (min-width: 400px) {
+    .sobre-title {
+        font-size: 1.6rem;
+    }
+    .sobre-text {
+        font-size: .7rem;
+    }
+    .breadcrumbs a, .breadcrumbs span {
+        font-size: .5rem;
+    }
+}
+/* 400 */
+@media (max-width: 400px)and (min-width: 300px) {
+    .sobre-title {
+        font-size: 1.4rem;
+    }
+    .sobre-text {
+        font-size: .9rem;
+    }
+    .breadcrumbs a, .breadcrumbs span {
+        font-size: .5rem;
+    }
+}
+/* 300 */
+@media (max-width: 300px) {
+    .sobre-title {
+        font-size: 1rem;
+    }
+    .sobre-text {
+        font-size: .5rem;
+    }
+    .breadcrumbs a, .breadcrumbs span {
+        font-size: .5rem;
+    }
+}

@@ -1,0 +1,883 @@
+/* MEDIA QUERIES */
+@media (max-width: 900px) and (min-width: 800px) {
+    .topo-container a, .topo-container button {
+        font-size: .68rem;
+    }
+    .topo .tel::before{
+        content: '';
+        height: 14px;
+        width: 14px;
+    }
+    .topo .mail::before{
+        content: '';
+        height: 14px;
+        width: 14px;
+        margin-right: 5px;
+    }
+    .topo-container button {
+        font-size: .68rem;
+    }
+    header nav {
+        min-height: 60px;
+    }
+    header nav ul li a {
+        font-size: .68rem;
+    }
+    header nav ul li a img {
+        width: 14px;
+        height: 14px;
+    }
+    header nav .sociais {
+        width: 45px;
+    }
+    .slide, .carousel-inner {
+        height: 400px;    
+        max-height: 400px;    
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 28px;
+        width: 28px;
+        background-size: 1.05rem;
+    }
+    .carousel-item h3.sub-title::after {
+        content: "";
+        width: 38px;
+        height: 4px;
+        margin-left: 10px;
+    }
+    .carousel-item h2 {
+        font-size: 2.4rem;
+    }
+    .carousel-item h3 {
+        font-size: 1.4rem;
+    }
+    .carousel-item h4 {
+        font-size: .75rem;
+        margin-bottom: 10px;
+    }
+    .carousel-item h5, .carousel-item a, .jumbotron a {
+        font-size: .65rem;
+    }
+    .carousel-item a::after, .jumbotron a::after{
+        content: "→";
+        margin-left: 5px;
+    }
+    .jumbotron {
+        height: 460px;
+        max-height: 460px;
+    }
+    .jumbotron .conteudo img{
+        width: 340px;
+    }
+    .jumbotron h1 {
+        font-size: 2.9rem;
+    }
+    .jumbotron h2 {
+        font-size: 2.4rem;
+    }
+    .jumbotron #traco {
+        height: 4px;
+        margin: 20px 0;
+    }
+    .jumbotron p {
+        font-size: .9rem;
+        margin: 7px 0;
+    }
+    .slick-carousel {
+        height: 380px;
+    }
+    .slick-carousel h5{
+        margin: 1.9rem 0;
+    }
+    #carousel-multiple .item {
+        margin: 10px;
+    }
+    #carousel-multiple .item img {
+        max-width: 145px;
+    }
+    #carousel-multiple .item span {
+        margin: 10px;
+        font-size: .9rem;
+    }
+    footer {
+        height: 210px;
+    }
+    .footer-content ul {
+        margin: 10px;
+    }
+    .footer-content ul h6, .footer-content ul li, .footer-content ul li a{
+        font-size: .6rem;
+        margin: 2px 0;
+    }
+    .footer-content ul h6 {
+        margin-bottom: 9px;
+    }
+    .footer-content #contato li {
+        margin: 10px 0;
+    }
+    .footer-content #contato li:nth-of-type(1) div{
+        width: 19px;
+        height: 19px;
+        margin-right: 5px;
+    }
+    .footer-content #contato li:nth-of-type(2) div{
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+    }
+    .footer-content #contato li:nth-of-type(3) div{
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+    }
+    .copy{
+        font-size: .69rem;
+    }
+}
+/* 800 */
+@media (max-width: 800px) and (min-width: 700px) {
+    .topo-container a, .topo-container button {
+        font-size: .67rem;
+    }
+    .topo .tel::before{
+        content: '';
+        height: 13px;
+        width: 13px;
+    }
+    .topo .mail::before{
+        content: '';
+        height: 13px;
+        width: 13px;
+        margin-right: 5px;
+    }
+    .topo-container button {
+        font-size: .67rem;
+    }
+    header nav {
+        min-height: 58px;
+    }
+    header nav ul li a {
+        font-size: .67rem;
+    }
+    header nav ul li a img {
+        width: 13px;
+        height: 13px;
+    }
+    header nav .sociais {
+        width: 40px;
+    }
+    .slide, .carousel-inner {
+        height: 300px;    
+        max-height: 300px;    
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 26px;
+        width: 26px;
+        background-size: 1rem;
+    }
+    .carousel-item h3.sub-title::after {
+        content: "";
+        width: 36px;
+        height: 4px;
+        margin-left: 10px;
+    }
+    .carousel-item h2 {
+        font-size: 2.3rem;
+    }
+    .carousel-item h3 {
+        font-size: 1.3rem;
+    }
+    .carousel-item h4 {
+        font-size: .74rem;
+        margin-bottom: 10px;
+    }
+    .carousel-item h5, .carousel-item a, .jumbotron a {
+        font-size: .64rem;
+    }
+    .carousel-item a::after, .jumbotron a::after{
+        content: "→";
+        margin-left: 5px;
+    }
+    .jumbotron {
+        height: 420px;
+        max-height: 420px;
+    }
+    .jumbotron .conteudo img{
+        width: 300px;
+    }
+    .jumbotron h1 {
+        font-size: 2.8rem;
+    }
+    .jumbotron h2 {
+        font-size: 2.4rem;
+    }
+    .jumbotron #traco {
+        height: 4px;
+        margin: 15px 0;
+    }
+    .jumbotron p {
+        font-size: .8rem;
+        margin: 7px 0;
+    }
+    .slick-carousel {
+        height: 340px;
+    }
+    .slick-carousel h5{
+        margin: 1.8rem 0;
+    }
+    #carousel-multiple .item {
+        margin: 10px;
+    }
+    #carousel-multiple .item img {
+        max-width: 140px;
+    }
+    #carousel-multiple .item span {
+        margin: 10px;
+        font-size: .8rem;
+    }
+    footer {
+        height: 205px;
+    }
+    .footer-content ul {
+        margin: 10px;
+    }
+    .footer-content ul h6, .footer-content ul li, .footer-content ul li a{
+        font-size: .58rem;
+        margin: 2px 0;
+    }
+    .footer-content ul h6 {
+        margin-bottom: 9px;
+    }
+    .footer-content #contato li {
+        margin: 10px 0;
+    }
+    .footer-content #contato li:nth-of-type(1) div{
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+    }
+    .footer-content #contato li:nth-of-type(2) div{
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+    }
+    .footer-content #contato li:nth-of-type(3) div{
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+    }
+    .copy{
+        font-size: .68rem;
+    }
+}
+/* 700 */
+@media (max-width: 700px) and (min-width: 600px) {
+    .topo-container a, .topo-container button {
+        font-size: .65rem;
+    }
+    .topo .tel::before, .topo .mail::before{
+        content: '';
+        height: 12px;
+        width: 12px;
+    }
+    .topo-container button {
+        font-size: .67rem;
+    }
+    header nav {
+        min-height: 57px;
+    }
+    header nav ul li a {
+        font-size: 1rem;
+    }
+    header nav ul li a img {
+        width: 20px;
+        height: 20px;
+        margin-right: 40px;
+    }
+    header nav .sociais {
+        width: 38px;
+    }
+    .slide, .carousel-inner {
+        height: 260px;    
+        max-height: 260px;    
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 24px;
+        width: 24px;
+        background-size: .8rem;
+    }
+    .carousel-item h3.sub-title::after {
+        content: "";
+        width: 32px;
+        height: 4px;
+        margin-left: 10px;
+    }
+    .carousel-item h2 {
+        font-size: 1.9rem;
+    }
+    .carousel-item h3 {
+        font-size: .9rem;
+    }
+    .carousel-item h4 {
+        font-size: .72rem;
+        margin-bottom: 10px;
+    }
+    .carousel-item h5, .carousel-item a, .jumbotron a {
+        font-size: .62rem;
+    }
+    .carousel-item a::after, .jumbotron a::after{
+        content: "→";
+        margin-left: 5px;
+    }
+    .jumbotron {
+        height: 380px;
+        max-height: 380px;
+    }
+    .jumbotron .conteudo img{
+        width: 280px;
+    }
+    .jumbotron h1 {
+        font-size: 2.6rem;
+    }
+    .jumbotron h2 {
+        font-size: 2.2rem;
+    }
+    .jumbotron #traco {
+        height: 4px;
+        margin: 14px 0;
+    }
+    .jumbotron p {
+        font-size: .7rem;
+        margin: 7px 0;
+    }
+    .slick-carousel {
+        height: 320px;
+    }
+    .slick-carousel h5{
+        margin: 1.6rem 0;
+    }
+    #carousel-multiple .item {
+        margin: 10px;
+    }
+    #carousel-multiple .item img {
+        max-width: 120px;
+    }
+    #carousel-multiple .item span {
+        margin: 10px;
+        font-size: .75rem;
+    }
+    footer {
+        height: 200px;
+    }
+    .footer-content ul {
+        margin: 9px;
+    }
+    .footer-content ul h6, .footer-content ul li, .footer-content ul li a{
+        font-size: .5rem;
+        margin: 2px 0;
+    }
+    .footer-content ul h6 {
+        margin-bottom: 9px;
+    }
+    .footer-content #contato li {
+        margin: 10px 0;
+    }
+    .footer-content #contato li:nth-of-type(1) div{
+        width: 17px;
+        height: 17px;
+        margin-right: 5px;
+    }
+    .footer-content #contato li:nth-of-type(2) div{
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+    }
+    .footer-content #contato li:nth-of-type(3) div{
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+    }
+    .copy{
+        font-size: .66rem;
+    }
+}
+/* 600 */
+@media (max-width: 600px) and (min-width: 500px) {
+    .topo-container a, .topo-container button {
+        font-size: .5rem;
+    }
+    .topo .tel::before, .topo .mail::before{
+        content: '';
+        height: 11px;
+        width: 11px;
+    }
+    .topo-container button {
+        font-size: .55rem;
+    }
+    header nav {
+        min-height: 55px;
+    }
+    header nav ul li a {
+        font-size: 1rem;
+    }
+    header nav ul li a img {
+        width: 20px;
+        height: 20px;
+        margin-right: 40px;
+    }
+    header nav .sociais {
+        width: 36px;
+    }
+    .slide, .carousel-inner {
+        height: 220px;    
+        max-height: 220px;    
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 22px;
+        width: 22px;
+        background-size: .75rem;
+    }
+    .carousel-item h3.sub-title::after {
+        content: "";
+        width: 30px;
+        height: 3px;
+        margin-left: 10px;
+    }
+    .carousel-item h2 {
+        font-size: 1.7rem;
+    }
+    .carousel-item h3 {
+        font-size: .7rem;
+    }
+    .carousel-item h4 {
+        font-size: .6rem;
+        margin-bottom: 8px;
+    }
+    .carousel-item h5, .carousel-item a, .jumbotron a {
+        font-size: .58rem;
+    }
+    .carousel-item a::after, .jumbotron a::after{
+        content: "→";
+        margin-left: 5px;
+    }
+    .jumbotron {
+        height: 320px;
+        max-height: 320px;
+    }
+    .jumbotron .conteudo img{
+        width: 240px;
+    }
+    .jumbotron h1 {
+        font-size: 1.8rem;
+    }
+    .jumbotron h2 {
+        font-size: 1.3rem;
+    }
+    .jumbotron #traco {
+        height: 3px;
+        margin: 10px 0;
+    }
+    .jumbotron p {
+        font-size: .58rem;
+        margin: 7px 0;
+    }
+    .slick-carousel {
+        height: 300px;
+    }
+    .slick-carousel h5{
+        margin: 1.4rem 0;
+    }
+    #carousel-multiple .item {
+        margin: 8px;
+    }
+    #carousel-multiple .item img {
+        max-width: 120px;
+    }
+    #carousel-multiple .item span {
+        margin: 10px;
+        font-size: .7rem;
+    }
+    footer {
+        height: 100%;
+    }
+    .footer-content ul {
+        margin: 9px;
+        grid-template-rows: 2fr 2fr;
+    }
+    .footer-content ul h6, .footer-content ul li, .footer-content ul li a{
+        font-size: .5rem;
+        margin: 2px 0;
+    }
+    .footer-content ul h6 {
+        margin-bottom: 9px;
+    }
+    .footer-content #contato li {
+        margin: 10px 0;
+    }
+    .footer-content #contato li:nth-of-type(1) div{
+        width: 17px;
+        height: 17px;
+        margin-right: 5px;
+    }
+    .footer-content #contato li:nth-of-type(2) div{
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+    }
+    .footer-content #contato li:nth-of-type(3) div{
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+    }
+    .footer-content #institucional {
+        grid-area: 1 / 2 / 1 / 3;
+        
+    }
+    .footer-content #nossosProdutos {
+        grid-area: 1 / 3 / 1 / 4;
+    }
+    .footer-content #contato {
+        grid-area: 1 / 4 / 2 / 6;
+    }
+    .footer-content #sobre {
+        grid-area: 2 / 2 / 2 / 6;
+    }
+    .copy{
+        font-size: .55rem;
+    }
+    #selos img {
+        height: auto;
+    }
+}
+/* 500 */
+@media (max-width: 500px) and (min-width: 400px) {
+    .topo-container a, .topo-container button {
+        font-size: 0;
+        margin: 0 5px;
+    }
+    .topo .tel::before, .topo .mail::before{
+        content: '';
+        height: 15px;
+        width: 15px;
+        margin-right: 20px;
+    }
+    .topo-container button {
+        font-size: .65rem;
+    }
+    header nav {
+        min-height: 50px;
+    }
+    header nav ul li a {
+        font-size: 1rem;
+    }
+    header nav ul li a img {
+        width: 20px;
+        height: 20px;
+        margin-right: 40px;
+    }
+    header nav .sociais {
+        width: 36px;
+    }
+    .slide, .carousel-inner {
+        height: 180px;    
+        max-height: 180px;    
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 20px;
+        width: 20px;
+        background-size: .7rem;
+    }
+    .carousel-item h3.sub-title::after {
+        content: "";
+        width: 25px;
+        height: 3px;
+        margin-left: 8px;
+    }
+    .carousel-item h2 {
+        font-size: 1.5rem;
+    }
+    .carousel-item h3 {
+        font-size: .65rem;
+    }
+    .carousel-item h4 {
+        font-size: .56rem;
+        margin-bottom: 6px;
+    }
+    .carousel-item h5, .carousel-item a, .jumbotron a {
+        font-size: .44rem;
+    }
+    .carousel-item a::after, .jumbotron a::after{
+        content: "→";
+        margin-left: 5px;
+    }
+    .jumbotron {
+        height: 280px;
+        max-height: 280px;
+    }
+    .jumbotron .conteudo img{
+        width: 190px;
+        align-self: center;
+        margin-bottom: 50px;
+    }
+    .jumbotron h1 {
+        font-size: 1.4rem;
+    }
+    .jumbotron h2 {
+        font-size: 1rem;
+    }
+    .jumbotron #traco {
+        height: 3px;
+        margin: 8px 0;
+    }
+    .jumbotron p {
+        font-size: .54rem;
+        margin: 7px 0;
+    }
+    .slick-carousel {
+        height: 280px;
+    }
+    .slick-carousel h5{
+        margin: 1.2rem 0;
+        font-size: 1rem;
+    }
+    #carousel-multiple .item {
+        margin: 8px;
+    }
+    #carousel-multiple .item img {
+        max-width: 160px;
+    }
+    #carousel-multiple .item span {
+        margin: 10px;
+        font-size: .8rem;
+    }
+    footer {
+        height: 100%;
+    }
+    .footer-content ul {
+        grid-template-rows: 2fr 2fr;
+    }
+    .footer-content ul h6, .footer-content ul li, .footer-content ul li a{
+        font-size: .6rem;
+        margin: 2px 0;
+    }
+    .footer-content ul h6 {
+        margin-bottom: 8px;
+    }
+    .footer-content #contato li {
+        margin: 8px 0;
+    }
+    .footer-content #contato li:nth-of-type(1) div{
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+    .footer-content #contato li:nth-of-type(2) div{
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+    }
+    .footer-content #contato li:nth-of-type(3) div{
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+    }
+    .footer-content #institucional {
+        grid-area: 1 / 2 / 1 / 3;
+        
+    }
+    .footer-content #nossosProdutos {
+        grid-area: 1 / 3 / 1 / 4;
+    }
+    .footer-content #contato {
+        grid-area: 1 / 4 / 2 / 6;
+    }
+    .footer-content #sobre {
+        grid-area: 2 / 2 / 2 / 6;
+    }
+    .copy{
+        font-size: .5rem;
+    }
+    #selos img {
+        height: auto;
+        max-height: 15px;
+        max-width: 22px;
+    }
+}
+/* 400 */
+@media (max-width: 400px){
+    .topo {
+        height: auto;
+        padding: 3px 0;
+    }
+    .topo-container a, .topo-container button {
+        font-size: 0;
+        margin: 0 5px;
+    }
+    .topo .tel::before, .topo .mail::before{
+        content: '';
+        height: 15px;
+        width: 15px;
+        margin-right: 20px;
+    }
+    .topo-container button {
+        font-size: .6rem;
+    }
+    header nav ul li a {
+        font-size: 1rem;
+    }
+    header nav ul li a img {
+        width: 20px;
+        height: 20px;
+        margin-right: 40px;
+    }
+    header nav .sociais {
+        width: 36px;
+    }
+    .slide, .carousel-inner {
+        height: 200px;    
+        max-height: 200px;    
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 15px;
+        width: 15px;
+        background-size: .7rem;
+    }
+    .carousel-item h3.sub-title::after {
+        content: "";
+        width: 20px;
+        height: 2px;
+        margin-left: 8px;
+    }
+    .carousel-item h2 {
+        font-size: 1.2rem;
+        margin-bottom: 3px;
+    }
+    .carousel-item h3 {
+        font-size: .7rem;
+        margin-bottom: 3px;
+    }
+    .carousel-item h4 {
+        font-size: 9px;
+        margin-bottom: 3px;
+    }
+    .carousel-item h5, .carousel-item a, .jumbotron a {
+        font-size: 9px;
+        margin-bottom: 3px;
+    }
+    .carousel-item a::after, .jumbotron a::after{
+        content: "→";
+        margin-left: 5px;
+    }
+    .jumbotron {
+        height: auto;
+        /* max-height: 300px; */
+    }
+    .jumbotron .conteudo img{
+        width: 200px;
+    }
+    .jumbotron .j-text {
+        grid-area: 1 / 2 / 1 / 5;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+    .jumbotron h1 {
+        font-size: 1rem;
+        margin: 3px;
+        grid-column: 1 / 3;
+    }
+    .jumbotron h2 {
+        font-size: .8rem;
+        margin: 3px;
+        grid-column: 1 / 3;
+    }
+    .jumbotron #traco {
+        height: 3px;
+        margin: 8px 0;
+        grid-column: 1 / 2;
+    }
+    .jumbotron p, .jumbotron a {
+        font-size: .8rem;
+        text-shadow: 0 0 1px #333;
+        margin: 5px 0;
+        grid-column: 2 / 4;
+        grid-column: 1 / 3;
+    }
+    .slick-carousel {
+        height: 250px;
+    }
+    .slick-carousel h5{
+        margin: 1rem 0;
+        font-size: .9rem;
+    }
+    #carousel-multiple .item {
+        margin: 5px;
+    }
+    #carousel-multiple .item img {
+        max-width: 160px;
+    }
+    #carousel-multiple .item span {
+        margin: 5px;
+        font-size: .8rem;
+    }
+    footer {
+        height: 100%;
+    }
+    .footer-content ul {
+        grid-template-rows: 2fr 2fr;
+    }
+    .footer-content ul h6, .footer-content ul li, .footer-content ul li a{
+        font-size: .5rem;
+        margin: 2px 0;
+    }
+    .footer-content ul h6 {
+        margin-bottom: 6px;
+    }
+    .footer-content #contato {
+        padding-right: 5px;
+    }
+    .footer-content #contato li {
+        margin: 8px 0;
+    }
+    .footer-content #contato li:nth-of-type(1) div{
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        margin-left: -5px;
+    }
+    .footer-content #contato li:nth-of-type(2) div, footer-content #contato li:nth-of-type(3) div {
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+    }
+    .footer-content #institucional {
+        grid-area: 1 / 2 / 1 / 4;  
+    }
+    .footer-content #nossosProdutos {
+        grid-area: 1 / 4 / 1 / 6;
+    }
+    .footer-content #contato {
+        grid-area: 2 / 2 / 2 / 4;
+    }
+    .footer-content #contato li{
+        font-size: .5rem;
+    }
+    .footer-content #sobre {
+        grid-area: 2 / 4 / 2 / 6;
+        padding: 0;
+    }
+    .copy{
+        font-size: 7px;
+    }
+    #selos img {
+        height: auto;
+        max-height: 15px;
+        max-width: 22px;
+    }
+}

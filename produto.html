@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Produto</title>
+</head>
+<body>
+    <div id="app">
+        <!-- HEADER -->
+        <cabecalho></cabecalho>
+        <!-- SECTION -->
+        <section class="content">
+            <div class="container-produto">
+                <div class="background"></div>
+                <div class="produto-show">
+                    <div class="breadcrumbs"><a href="index.html">PÁGINA INICIAL</a> / <a href="produtos.html">PRODUTOS</a> / <span class="bold font-weight-bold titulo">produto</span></div>
+                    <!-- produtoShow() -->
+                </div>
+            </div>
+
+            <!-- TABS -->
+            <div class="prod-info-tabs mt-4 container p-0">
+                <ul class="nav nav-tabs d-flex justify-content-center mb-4" id="myTab" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" id="tabela-nutricional-tab" data-toggle="tab" href="#tabela-nutricional" role="tab" aria-controls="tabela-nutricional" aria-selected="true">Tabela Nutricional</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="ingredientes-tab" data-toggle="tab" href="#ingredientes" role="tab" aria-controls="ingredientes" aria-selected="false">Ingredientes</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="ficha-tecnica-tab" data-toggle="tab" href="#ficha-tecnica" role="tab" aria-controls="ficha-tecnica" aria-selected="false">Ficha Técnica</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <!-- TABELA NUTRICIONAL -->
+                    <div class="tab-pane fade show active" id="tabela-nutricional" role="tabpanel" aria-labelledby="tabela-nutricional-tab">
+                        <table class="table" v-if="nutricional.length">
+                            <thead class="text-white p-2">
+                                <th colspan="2" class="lead " width="70%" ><span class="bold">Quantidade por porção</span> - {{nutricional[0].porção}}</th>
+                                <th class="lead text-center vd" width="30%">%VD (*)</th>
+                            </thead>
+                            <tbody>
+                                <tr v-for="(value, name, index) in nutricional[0]" v-if="index > 0"><td class="propriedade">{{name}}</td><td>{{value}}</td><td class="text-center">{{parseInt(value.substr(0, 5)) * 100 / 2000}}%</td></tr>
+                            </tbody>
+                        </table>
+                        <table class="table" v-else>
+                            <thead class="text-white p-2">
+                                <th colspan="2" class="lead " width="70%" ><span class="bold">Quantidade por porção</span> - 200 ml (1 copo)</th>
+                                <th class="lead text-center vd" width="30%">%VD (*)</th>
+                            </thead>
+                            <tbody>
+                                <tr><td class="propriedade">Valor Energético</td><td>60 Kcal / 253 KJ</td><td class="text-center">3%</td></tr>
+                                <tr><td class="propriedade">Carboidratos</td><td>15 g</td><td class="text-center">5%</td></tr>
+                                <tr><td class="propriedade">Açúcares</td><td>15 g</td><td class="text-center">0</td></tr>
+                                <tr><td class="propriedade">Sódio</td><td>0 mg</td><td class="text-center">**</td></tr>
+                                <tr><td class="propriedade">Potássio</td><td>31 mg</td><td class="text-center">**</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- INGREDIENTES -->
+                    <div class="tab-pane fade" id="ingredientes" role="tabpanel" aria-labelledby="ingredientes-tab">
+                        <p>Non, amet iste. Modi corrupti odit expedita amet id hic, sit praesentium perspiciatis voluptatibus, quisquam iure dolor ad ducimus temporibus dignissimos architecto. Vero minus corporis ut eos nulla sunt atque.
+                        Neque in, perferendis tempore recusandae quis impedit repudiandae fugit. Accusantium velit eius nisi quo ratione sunt, architecto distinctio sit fuga excepturi ea, voluptas id modi assumenda autem voluptatem, reprehenderit itaque.</p>
+                        <p class="font-weight-bold mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae illo facilis exercitationem nisi accusantium accusamus nulla qui. In alias assumenda voluptate, sit quod culpa aliquid illo. Rerum quasi porro repellat?</p>
+                        
+                    </div>
+                    <!-- FICHA TÉCNICA -->
+                    <div class="tab-pane fade" id="ficha-tecnica" role="tabpanel" aria-labelledby="ficha-tecnica-tab">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                        <p class="font-weight-bold mt-2">Recusandae illo facilis exercitationem nisi accusantium accusamus nulla qui. In alias assumenda voluptate, sit quod culpa aliquid illo. Rerum quasi porro repellat?</p>
+                        <p>Eveniet, eos minus! Excepturi laudantium sunt aut, amet possimus voluptate sapiente magnam optio animi rem non aliquid fuga reiciendis? A, ad quas.</p>
+                        <p class="font-weight-bold mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae illo facilis exercitationem nisi accusantium accusamus nulla qui. In alias assumenda voluptate, sit quod culpa aliquid illo. Rerum quasi porro repellat?</p>
+                    </div>
+                  </div>
+            </div>
+
+            <!-- PARALLAX -->
+            <div class="parallax">
+                <div class="container align-items-center">
+                    <div class="parallax-texto d-flex flex-column">
+                        <span class="pedido font-weight-bold" data-anime="left">FAZER PEDIDO</span>
+                        <span class="nome text-white" v-if="produto.length > 0" data-anime="left">{{produto[0].titulo}}</span>
+                        <span class="nome text-white" v-else data-anime="left">VITA COCO</span>
+                        <button class="comprar btn btn-link p-0 m-0 text-white d-flex align-items-center" data-anime="left" data-toggle="modal" data-target="#compra">COMPRAR AGORA <span class="ml-2 btn">&#10230;</span></button>
+                    </div>
+                    <div class="parallax-img">
+                        <img src="assets/images/cart-lg.png" data-anime="right"  alt="Carrinho de Compras">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FOOTER -->
+        <rodape :produtos="produtos" :base-url="baseUrl"></rodape>
+        <!-- MODAIS -->
+        <modais></modais>
+      </div>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/vue.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script type="module" src="assets/js/script-prod.js"></script>
+
+</body>
+</html>

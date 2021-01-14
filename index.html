@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
+  
+  <title>Lemon</title>
+</head>
+
+<body>
+  <div id="app">
+    <!-- HEADER -->
+    <cabecalho></cabecalho>
+    <!-- SECTION -->
+    <section class="content">
+      <!-- SLIDER -->
+      <slider></slider>
+      <!-- BANNER -->
+      <banner></banner>
+      <!-- CAROUSEL MULTIPLO-ITENS -->
+      <carousel :produtos="produtos" :base-url="baseUrl"></carousel>
+    </section>
+    <!-- FOOTER -->
+    <rodape :produtos="produtos" :base-url="baseUrl"></rodape>
+    <!-- MODAIS -->
+    <modais></modais>
+  </div>
+
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/vue.js"></script>
+  <script src="assets/js/index.js"></script>
+  <script type="module" src="assets/js/script.js"></script>
+
+</body>
+
+</html>

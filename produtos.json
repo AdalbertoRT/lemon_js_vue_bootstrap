@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "titulo": "GELÉIA DE LIMÃO",
+        "img": "geleia-limao.png",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed nulla ornare, efficitur risus sit amet, venenatis massa. Nullam quis mi sit amet velit suscipit malesuada. Donec libero dolor, rutrum non tortor et, congue maximus dolor. Integer eu nulla sapien. Nunc posuere, diam vel fringilla cursus, purus est suscipit leo.",
+        "nutricional": {
+            "porção": "50 gr (1 colher de sopa)",
+            "Valor Energético": "80 Kcal / 335 KJ",
+            "Carboidaratos": "20 g",
+            "Açúcares": "20 g",
+            "Sódio": "0 mg",
+            "Potássio": "31 mg"
+        }
+    
+    },
+    {
+        "id": 2,
+        "titulo": "SUCO DE LIMÃO",
+        "img": "suco-limao.png",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed nulla ornare, efficitur risus sit amet, venenatis massa. Nullam quis mi sit amet velit suscipit malesuada. Donec libero dolor, rutrum non tortor et, congue maximus dolor. Integer eu nulla sapien. Nunc posuere, diam vel fringilla cursus, purus est suscipit leo.",
+        "nutricional": {
+            "porção": "200 ml (1 copo)",
+            "Valor Energético": "60 Kcal / 251 KJ",
+            "Carboidaratos": "15 g",
+            "Açúcares": "15 mg",
+            "Sódio": "0 mg",
+            "Potássio": "31 mg"
+        }
+    },
+    {
+        "id": 3,
+        "titulo": "REFRIGERANTE DE LIMÃO",
+        "img": "refrigerante-limao.png",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed nulla ornare, efficitur risus sit amet, venenatis massa. Nullam quis mi sit amet velit suscipit malesuada. Donec libero dolor, rutrum non tortor et, congue maximus dolor. Integer eu nulla sapien. Nunc posuere, diam vel fringilla cursus, purus est suscipit leo.",
+        "nutricional": {
+            "porção": "200 ml (1 copo)",
+            "Valor Energético": "60 Kcal / 251 KJ",
+            "Carboidaratos": "15 g",
+            "Açúcares": "15 mg",
+            "Sódio": "0 mg",
+            "Potássio": "31 mg"
+        }
+    },
+    {
+        "id": 4,
+        "titulo": "TORTINHA DE LIMÃO",
+        "img": "tortinha-limao.png",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed nulla ornare, efficitur risus sit amet, venenatis massa. Nullam quis mi sit amet velit suscipit malesuada. Donec libero dolor, rutrum non tortor et, congue maximus dolor. Integer eu nulla sapien. Nunc posuere, diam vel fringilla cursus, purus est suscipit leo.",
+        "nutricional": {
+            "porção": "80 gr (1 un.)",
+            "Valor Energético": "70 Kcal / 293 KJ",
+            "Carboidaratos": "18 g",
+            "Açúcares": "18 g",
+            "Sódio": "0 mg",
+            "Potássio": "31 mg"
+        }
+    },
+    {
+        "id": 5,
+        "titulo": "BOLO DE LIMÃO",
+        "img": "bolo.png",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed nulla ornare, efficitur risus sit amet, venenatis massa. Nullam quis mi sit amet velit suscipit malesuada. Donec libero dolor, rutrum non tortor et, congue maximus dolor. Integer eu nulla sapien. Nunc posuere, diam vel fringilla cursus, purus est suscipit leo.",
+        "nutricional": {
+            "porção": "80 gr (1 un.)",
+            "Valor Energético": "70 Kcal / 293 KJ",
+            "Carboidaratos": "16 g",
+            "Açúcares": "16 g",
+            "Sódio": "0 mg",
+            "Potássio": "31 mg"
+        }
+    },
+    {
+        "id": 6,
+        "titulo": "BARRINHA DE LIMÃO",
+        "img": "barrinha-limao.png",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed nulla ornare, efficitur risus sit amet, venenatis massa. Nullam quis mi sit amet velit suscipit malesuada. Donec libero dolor, rutrum non tortor et, congue maximus dolor. Integer eu nulla sapien. Nunc posuere, diam vel fringilla cursus, purus est suscipit leo.",
+        "nutricional": {
+            "porção": "8 gr (1 un.)",
+            "Valor Energético": "90 Kcal / 377 KJ",
+            "Carboidaratos": "13 g",
+            "Açúcares": "13 g",
+            "Sódio": "0 mg",
+            "Potássio": "31 mg"
+        }
+    },
+    {
+        "id": 7,
+        "titulo": "VITA COCO",
+        "img": "produto.png",
+        "descricao": "Água de coco pura com limão. A Vita Coco é o suco da Lemon de água de coco e mistura de limonada natural. Todos os benefícios da água de coco e suco do limão em um lugar só. Excelente fonte de energia e vitaminas. Todo o processo de fabricação é realizado com baixo nível de industrialização.",
+        "nutricional": {
+            "porção": "200 ml (1 copo)",
+            "Valor Energético": "60 Kcal / 251 KJ",
+            "Carboidaratos": "15 g",
+            "Açúcares": "15 mg",
+            "Sódio": "0 mg",
+            "Potássio": "31 mg"
+        }
+    }
+]
